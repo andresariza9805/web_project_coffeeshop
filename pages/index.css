@@ -81,14 +81,15 @@
   color: #838383;
   flex-wrap: wrap;
 }
-.header__paragraph {
+.header__paragraph:nth-child(1),
+.header__paragraph:nth-child(2),
+.header__paragraph:nth-child(3) {
   flex-basis: 100%;
   margin: 0;
 }
-.header__paragraph-address {
+.header__paragraph:nth-child(4) {
   margin-left: auto;
-  margin-bottom: 0;
-  margin-top: auto;
+  margin-top: 0;
 }
 .recipes {
   background-color: #0a2750;
