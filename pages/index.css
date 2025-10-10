@@ -79,15 +79,12 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
-.header__paragraph:nth-child(1),
-.header__paragraph:nth-child(2),
-.header__paragraph:nth-child(3) {
-  flex-basis: 100%;
+.header__paragraph {
   margin: 0;
 }
-.header__paragraph:nth-child(4) {
+.header__paragraph-address {
   margin-left: auto;
   margin-top: 0;
 }
