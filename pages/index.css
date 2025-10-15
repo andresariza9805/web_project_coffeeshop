@@ -144,17 +144,15 @@
   flex-direction: column;
   align-items: center;
 }
-h2 {
-  margin: 0;
-}
+
 .reservation__title {
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  padding-top: 80px;
 }
-.section__title {
-  margin: 0;
+.reservation__section-title {
+  margin-top: 100px;
+  margin-bottom: 0;
 }
 .reservation__form {
   margin-bottom: 120px;
