@@ -137,7 +137,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 700px;
   max-height: 100%;
   background-color: #d9e7ff;
   margin-top: 0;
@@ -150,12 +149,12 @@
   font-size: 44px;
   line-height: 52px;
   margin-top: 100px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 80px;
+  margin-bottom: 0;
 }
 .reservation__form {
   margin-bottom: 120px;
+  margin-top: 80px;
+
   width: 385px;
   box-sizing: border-box;
 }
