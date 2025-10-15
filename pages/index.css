@@ -149,8 +149,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin-top: 100px;
-  margin-bottom: 80px;
+  margin: 100px 0 80px;
 }
 .reservation__form {
   margin-bottom: 120px;
@@ -200,11 +199,11 @@
 .form__button:hover {
   opacity: 70%;
 }
-.form__label_type_checkboxx {
+.form__label_type_checkbox {
   margin: 0;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .form__checkbox {
   width: 20px;
